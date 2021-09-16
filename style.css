@@ -1,5 +1,4 @@
-
-*{
+* {
     text-decoration: none;
     list-style: none;
     padding: 0;
@@ -8,14 +7,12 @@
 
 .container {
     padding: 0px 50px;
-
 }
 
 nav {
-    height: 30;
-    width: 60;
-    background: grey; 
-    ;
+    height: 30px;
+    width: 60px;
+    background: grey;
 }
 
 label.logo {
@@ -26,7 +23,7 @@ label.logo {
     color: white;
 }
 
-nav a{
+nav a {
     padding: 8px 10px;
     font-size: 20px;
     color: white;
@@ -44,30 +41,29 @@ nav li {
     display: inline-block;
 }
 
-a:hover, a.active{
+a:hover,
+a.active {
     transition: 3s;
     border: 0.5px solid whitesmoke;
 }
 
-body{
+body {
     background: grey;
 }
 
 @media all and (max-width:1046px) {
-    
-    label.logo{
+    label.logo {
         font-size: 32px;
         padding-left: 50px;
     }
-
-    nav ul{
+    nav ul {
         margin-right: 18px;
     }
-
-    nav a{
+    nav a {
         font-size: 16px;
     }
 }
+
 
 /* content section */
 
@@ -78,35 +74,30 @@ body{
     flex-direction: column;
     align-content: center;
     padding: 20px 0;
-}   
+}
 
 p {
-    color:white;
-
+    color: white;
 }
 
 img {
     border-radius: 50%;
-  }
-.box2{
-    display: flex;
-    flex:1;
-    margin:50px;
-    
 }
 
-.social-icon{
-    color:white;
+.box2 {
+    display: flex;
+    flex: 1;
+    margin: 50px;
+}
+
+.social-icon {
+    color: white;
     transition: color 0.1s;
-    margin:0 30px;
+    margin: 0 30px;
     width: 20px;
     height: 100x;
 }
 
-.social-icon:hover{
-    color:#333333;
+.social-icon:hover {
+    color: #333333;
 }
-
-  
-
-
