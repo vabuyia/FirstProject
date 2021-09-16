@@ -64,9 +64,6 @@ body {
     }
 }
 
-
-/* content section */
-
 .content {
     display: flex;
     height: 100vh;
