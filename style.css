@@ -41,7 +41,11 @@ nav li {
     display: inline-block;
 }
 
-a:hover,
+a:hover {
+    transition: 3s;
+    border: 0.5px solid whitesmoke;
+}
+
 a.active {
     transition: 3s;
     border: 0.5px solid whitesmoke;
