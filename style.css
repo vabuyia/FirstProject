@@ -1,97 +1,95 @@
 * {
-    text-decoration: none;
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .container {
-    padding: 0 50px;
+  padding: 0 50px;
 }
 
 nav {
-    height: 30px;
-    width: 60px;
-    background: grey;
+  height: 30px;
+  width: 60px;
+  background: grey;
 }
 
 label.logo {
-    padding: 0 100px;
-    line-height: 80px;
-    font-size: 20px;
-    font-weight: bold;
-    color: white;
+  padding: 0 100px;
+  line-height: 80px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
 }
 
 nav a {
-    padding: 8px 10px;
-    font-size: 20px;
-    color: white;
-    border-radius: 4px;
-    border: 0.5px solid transparent;
-    text-transform: uppercase;
+  padding: 8px 10px;
+  font-size: 20px;
+  color: white;
+  border-radius: 4px;
+  border: 0.5px solid transparent;
+  text-transform: uppercase;
 }
 
 nav ul {
-    margin-right: 40px;
-    float: right;
+  margin-right: 40px;
+  float: right;
 }
 
 nav li {
-    display: inline-block;
+  display: inline-block;
 }
 
 a:hover {
-    transition: 3s;
-    border: 0.5px solid whitesmoke;
+  transition: 3s;
+  border: 0.5px solid whitesmoke;
 }
 
 a.active {
-    transition: 3s;
-    border: 0.5px solid whitesmoke;
+  transition: 3s;
+  border: 0.5px solid whitesmoke;
 }
 
 body {
-    background: grey;
+  background: grey;
 }
 
-@media screen and (max-width:1046px) {
-    label.logo {
-        font-size: 32px;
-        padding-left: 50px;
-    }
-    nav ul {
-        margin-right: 18px;
-    }
-    nav a {
-        font-size: 16px;
-    }
+@media screen and (max-width: 1046px) {
+  label.logo {
+    font-size: 32px;
+    padding-left: 50px;
+  }
+  nav ul {
+    margin-right: 18px;
+  }
+  nav a {
+    font-size: 16px;
+  }
 }
 
 p {
-    color: white;
+  color: white;
 }
 
 img {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 .box2 {
-    display: flex;
-    flex: 1;
-    margin: 50px;
+  display: flex;
+  flex: 1;
+  margin: 50px;
 }
 
 .social-icon {
-    color: white;
-    transition: color 0.1s;
-    margin: 0 30px;
-    width: 20px;
-    height: 100vh;
+  color: white;
+  transition: color 0.1s;
+  margin: 0 30px;
+  width: 20px;
+  height: 100vh;
 }
 
 .social-icon:hover {
-    color: #333;
+  color: #333;
 }
-
-height: 100vh;
