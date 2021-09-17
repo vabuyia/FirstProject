@@ -1,4 +1,7 @@
 # Portfolio: setup and mobile version skeleton
+* For the first milestone in the process of creating your portfolio website, you will:
+-set up a new repository and prepare it for development using best practices (e.g. linters).
+-build the first 3 sections of the mobile website using the template you chose in the previous step.
 The project requires creation of HTML file, CSS file, gitignore file and a Text file. Thereafter, the project should be pushed to the Github repository. 
 
 Additional description about the project and its features.
