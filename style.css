@@ -4,30 +4,25 @@
   box-sizing: border-box;
   margin: 0; 
   padding: 0;
-
 }
 
 body {
-  background-image:url(header.png);
-  -webkit-background-size:covr;
+  background-image: url(header.png);
+  -webkit-background-size: cover;
   background-size: cover; 
   height: 100vh;
-  font-family:poppins;  
+  font-family: "Poppins", sans-serif;
+  overflow-y: 648.28px;  
   font-weight: 500;
   font-size: 15px;
 }
 
 a {
-  overflow-x: 299px;
-  overflow-y: 648.28px;
   width: 4.97px;
   height: 13.72px;
 }
 
 header {
-  display:-webkit-inline-flex;
-  display: -moz-flex;
-  display: -ms-flex;
   display: flex;
   justify-content: space-between;
   align-items: center; 
@@ -35,13 +30,13 @@ header {
 }
 
 .logo {
-  cursor:pointer;
+  cursor: pointer;
   width: 76px;
   height: 30px;
 }
 
 .nav-area {
-  list-style:none;
+  list-style: none;
 }
 
 .nav-area li {
@@ -49,12 +44,12 @@ header {
 }
 
 .nav-area li a {
-  transition: .1s;
+  transition: 0.1s;
   color: blue; 
 }
 
 .nav-area li a:hover {
-  color:#d22938;
+  color: #d22938;
 }
 
 .wrapper {
@@ -62,27 +57,27 @@ header {
 }
 
 .upper {
-  overflow-x: 0;
-  overflow-y: 0;
+  overflow-x: 1px;
+  overflow-y: 1px;
   width: 920px;
   height: 122px;
-  font-family: poppins; 
-  font-style: Bold;
+  font-family: "Poppins", sans-serif;
+  font-style: bold;
   font-size: 25px; 
   line-height: 60px;
   line-height: 83%;
-  align-items: left;
-  vertical-align: center;
-  letter-spacing: 2px,
-  }
+  align-items: top;
+  vertical-align: top;
+  letter-spacing: 2px;
+}
 
 .lower {
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 28px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   vertical-align: top;
 }
@@ -90,18 +85,20 @@ header {
 .connect {
   height: 24px;
   width: 117px;
-  left: 0px;
-  top: 0px;
-  border-radius: nullpx;
+  left: 0;
+  top: 0;
+  border-radius: 5px;
 }
 
 .connect h3 {
-  font-family: Poppins;
-  font-style: Medium;
+  font-family: "Poppins", sans-serif;
+  font-style: medium;
   font-size: 16px; 
   line-height: 24px;
-  line-height:100%;
-  align-items: left;
+  line-height: 100%;
+  align-items: after;
   vertical-align: top;
   color: #1024db;  
 }
+
+
