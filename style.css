@@ -2,17 +2,16 @@
 
 * {
   box-sizing: border-box;
-  margin: 0; 
+  margin: 0;
   padding: 0;
 }
 
 body {
   background-image: url(header.png);
   -webkit-background-size: cover;
-  background-size: cover; 
+  background-size: cover;
   height: 100vh;
   font-family: "Poppins", sans-serif;
-  overflow-y: 648.28px;  
   font-weight: 500;
   font-size: 15px;
 }
@@ -25,7 +24,7 @@ a {
 header {
   display: flex;
   justify-content: space-between;
-  align-items: center; 
+  align-items: center;
   padding: 25px 248px;
 }
 
@@ -40,12 +39,12 @@ header {
 }
 
 .nav-area li {
-  display: inline-block; 
+  display: inline-block;
 }
 
 .nav-area li a {
   transition: 0.1s;
-  color: blue; 
+  color: blue;
 }
 
 .nav-area li a:hover {
@@ -60,11 +59,11 @@ header {
   width: 920px;
   height: 122px;
   font-family: "Poppins", sans-serif;
-  font-style: bold;
-  font-size: 25px; 
+  font-weight: bold;
+  font-size: 25px;
   line-height: 60px;
   line-height: 83%;
-  align-items: top;
+  align-items: start;
   vertical-align: top;
   letter-spacing: 2px;
 }
@@ -90,11 +89,10 @@ header {
 
 .connect h3 {
   font-family: "Poppins", sans-serif;
-  font-style: medium;
-  font-size: 16px; 
+  font-size: 16px;
   line-height: 24px;
   line-height: 100%;
-  align-items: after;
+  align-items: start;
   vertical-align: top;
-  color: #1024db;  
+  color: #1024db;
 }
