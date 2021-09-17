@@ -1,97 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&family=Source+Sans+Pro&display=swap');
+
 * {
-  text-decoration: none;
-  list-style: none;
+  box-sizing: border-box;
+  margin: 0; 
   padding: 0;
-  margin: 0;
-}
 
-.container {
-  padding: 0 50px;
-}
-
-nav {
-  height: 30px;
-  width: 60px;
-  background: grey;
-}
-
-label.logo {
-  padding: 0 100px;
-  line-height: 80px;
-  font-size: 20px;
-  font-weight: bold;
-  color: white;
-}
-
-nav a {
-  padding: 8px 10px;
-  font-size: 20px;
-  color: white;
-  border-radius: 4px;
-  border: 0.5px solid transparent;
-  text-transform: uppercase;
-}
-
-nav ul {
-  margin-right: 40px;
-  float: right;
-}
-
-nav li {
-  display: inline-block;
-}
-
-a:hover {
-  transition: 3s;
-  border: 0.5px solid whitesmoke;
-}
-
-a.active {
-  transition: 3s;
-  border: 0.5px solid whitesmoke;
 }
 
 body {
-  background: grey;
-}
-
-@media screen and (max-width: 1046px) {
-  label.logo {
-    font-size: 32px;
-    padding-left: 50px;
-  }
-
-  nav ul {
-    margin-right: 18px;
-  }
-
-  nav a {
-    font-size: 16px;
-  }
-}
-
-p {
-  color: white;
-}
-
-img {
-  border-radius: 50%;
-}
-
-.box2 {
-  display: flex;
-  flex: 1;
-  margin: 50px;
-}
-
-.social-icon {
-  color: white;
-  transition: color 0.1s;
-  margin: 0 30px;
-  width: 20px;
+  background-image:url(header.png);
+  -webkit-background-size:covr;
+  background-size: cover; 
   height: 100vh;
+  font-family:poppins;  
+  font-weight: 500;
+  font-size: 15px;
 }
 
-.social-icon:hover {
-  color: #333;
+a {
+  overflow-x: 299px;
+  overflow-y: 648.28px;
+  width: 4.97px;
+  height: 13.72px;
+}
+
+header {
+  display:-webkit-inline-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  padding: 25px 248px;
+}
+
+.logo {
+  cursor:pointer;
+  width: 76px;
+  height: 30px;
+}
+
+.nav-area {
+  list-style:none;
+}
+
+.nav-area li {
+  display: inline-block; 
+}
+
+.nav-area li a {
+  transition: .1s;
+  color: blue; 
+}
+
+.nav-area li a:hover {
+  color:#d22938;
+}
+
+.wrapper {
+  padding: 359px 260px 435px 260px;
+}
+
+.upper {
+  overflow-x: 0;
+  overflow-y: 0;
+  width: 920px;
+  height: 122px;
+  font-family: poppins; 
+  font-style: Bold;
+  font-size: 25px; 
+  line-height: 60px;
+  line-height: 83%;
+  align-items: left;
+  vertical-align: center;
+  letter-spacing: 2px,
+  }
+
+.lower {
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  vertical-align: top;
+}
+
+.connect {
+  height: 24px;
+  width: 117px;
+  left: 0px;
+  top: 0px;
+  border-radius: nullpx;
+}
+
+.connect h3 {
+  font-family: Poppins;
+  font-style: Medium;
+  font-size: 16px; 
+  line-height: 24px;
+  line-height:100%;
+  align-items: left;
+  vertical-align: top;
+  color: #1024db;  
 }
