@@ -1,30 +1,28 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0; 
   padding: 0;
 }
 
-body{
+body {
   background-image: url(images/header.png);
   background-size: cover; 
   height: 100vh;
-  font-family: poppins;  
+  font-family: Poppins, sans-serif;
   font-weight: 500;
   font-size: 15px;
 }
 
-a{
-  overflow-x: 299px;
-  overflow-y: 648.28px;
+a {
   width: 4.97px;
   height: 13.72px;
  }
 
-header{
-display: flex;
-justify-content: space-between;
-align-items: center; 
-padding: 25px 248px;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  padding: 25px 248px;
 }
 
 .logo {
@@ -44,7 +42,7 @@ nav li {
 
 nav li a {
   text-decoration: none; 
-  transition: .1s;
+  transition: 0.1s;
   color: blue;
 
 }
@@ -53,21 +51,21 @@ nav li a:hover {
   color:#e02131;
 }
 
-.wrapper{
+.wrapper {
   padding: 359px 260px 435px 260px;
 }
 
 .upper {
-width: 920px;
-height: 122px;
-font-family: Poppins, sans-serif;
-font-style: bold;
-font-size: 25px; 
-line-height: 60px;
-line-height: 83%;
-align-items: after;
-vertical-align: top; 
-letter-spacing: 2px;
+  width: 920px;
+  height: 122px;
+  font-family: Poppins, sans-serif;
+  font-style: bold;
+  font-size: 25px; 
+  line-height: 60px;
+  line-height: 83%;
+  align-items: after;
+  vertical-align: top; 
+  letter-spacing: 2px;
 }
 
 .lower {
@@ -102,5 +100,3 @@ letter-spacing: 2px;
 .apps li {
   display: inline-block;
 }
-
-
