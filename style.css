@@ -89,7 +89,7 @@ nav li a:hover {
   line-height: 24px;
   line-height: 100%;
   vertical-align: top; /* end-of-line comment */
-  color: #1024db;  
+  color: #1024db; /* end-of-line comment */ 
 }
 
 .apps li {
