@@ -1,3 +1,6 @@
 style2.css
 node_modules
+.hintrc
+package-lock.json
+package.json
 
