@@ -1,12 +1,12 @@
 * {
   box-sizing: border-box;
-  margin: 0; 
+  margin: 0; /* end-of-line comment */
   padding: 0;
 }
 
 body {
   background-image: url(images/header.png);
-  background-size: cover; 
+  background-size: cover; /* end-of-line comment */
   height: 100vh;
   font-family: Poppins, sans-serif;
   font-weight: 500;
@@ -21,7 +21,7 @@ a {
 header {
   display: flex;
   justify-content: space-between;
-  align-items: center; 
+  align-items: center; /* end-of-line comment */
   padding: 25px 248px;
 }
 
@@ -40,7 +40,7 @@ nav li {
 }
 
 nav li a {
-  text-decoration: none; 
+  text-decoration: none; /* end-of-line comment */
   transition: 0.1s;
   color: blue;
 }
@@ -57,10 +57,10 @@ nav li a:hover {
   width: 920px;
   height: 122px;
   font-family: Poppins, sans-serif;
-  font-size: 25px; 
+  font-size: 25px; /* end-of-line comment */
   line-height: 60px;
   line-height: 83%;
-  vertical-align: top; 
+  vertical-align: top; /* end-of-line comment */
   letter-spacing: 2px;
 }
 
@@ -85,15 +85,13 @@ nav li a:hover {
 
 .connect h3 {
   font-family: "Poppins", sans-serif;
-  font-size: 16px; 
+  font-size: 16px; /* end-of-line comment */ 
   line-height: 24px;
   line-height: 100%;
-  vertical-align: top;
+  vertical-align: top; /* end-of-line comment */
   color: #1024db;  
 }
 
 .apps li {
   display: inline-block;
 }
- 
-
